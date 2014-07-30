@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:gravity="center"
+	    android:background="@color/white">
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"        
+	    	android:layout_marginLeft="10dp">
+	        <TextView
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+		        android:text="Bet Player"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        <TextView
+		        android:id="@+id/tvBetPlayerValue"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+				android:textSize="25sp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="10dp">
+	        <TextView
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+		        android:text="Bet Banker"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        <TextView
+		        android:id="@+id/tvBetBankerValue"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+				android:textSize="25sp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="10dp">
+	        <TextView
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+		        android:text="Bet Tie"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        <TextView
+		        android:id="@+id/tvBettieValue"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+				android:textSize="25sp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="10dp">
+	        <TextView
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+		        android:text="Bet Player Pair"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        <TextView
+		        android:id="@+id/tvBetPlayerPairValue"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+				android:textSize="25sp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="10dp">
+	        <TextView
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+		        android:text="Bet Banker Pair"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        <TextView
+		        android:id="@+id/tvBetBankerPairValue"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+				android:textSize="25sp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>	
+	</LinearLayout>
+	<ProgressBar 
+	    android:id="@+id/pbTotal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"/>
+</RelativeLayout>
